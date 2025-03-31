@@ -1,0 +1,6 @@
+.active{
+    pointer-events: none;
+    background-color: silver;
+    color: grey;
+    text-decoration: none;
+}
