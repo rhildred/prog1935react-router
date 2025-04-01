@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./Home";
 import About from "./About"
 import Hello from "./Hello"
+import Detail from "./Detail"
 import Navigation from "./Navigation";
 export default function App(){
   return <>
@@ -9,6 +10,7 @@ export default function App(){
   <Navigation />  
   <Routes>
     <Route path="/" element={<Home />}></Route>
+    <Route path="detail" element={<Detail />}></Route>
     <Route path="about" element={<About />}></Route>
     <Route path="user/:username" element={<Hello />}></Route>
   </Routes>
